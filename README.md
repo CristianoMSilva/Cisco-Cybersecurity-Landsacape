@@ -48,4 +48,25 @@ A robust security posture relies on the balance of four fundamental pillars:
 | **Technical & Execution** | Processes & Technologies |
 
 ---
+
+## Direct Summary of Data Categories
+* **PII (Personally Identifiable Information):** Direct identifiers (name, email) or combined indirect identifiers (gender + ZIP code + date of birth).
+* **PHI (Protected Health Information):** Medical records, diagnoses, and health histories linked to a patient's identity.
+* **PCI (Payment Card Data):** Cardholder information (card number, expiration date) and critical authentication data (CVV, PIN).
+
+---
+
+## Essential Breakdown of Regulations
+* **GDPR (Focus on PII):** Requires systems to be built under the *Privacy by Design* concept. It enforces **data minimization** (collecting only what is strictly necessary) and obligates engineering to guarantee the *Right to be Forgotten* (complete deletion of a user's data).
+* **HIPAA (Focus on PHI):** Divided into privacy and security rules. In technical practice, it requires **end-to-end encryption**, Role-Based Access Control (RBAC), and **strict audit logs** (tracking exactly who accessed each medical record and when).
+* **PCI-DSS (Focus on PCI):** A rigid industry standard. It strictly prohibits storing authentication data (such as the CVV) after a transaction is authorized. It requires isolated **network segmentation** for payments and the use of **tokenization** to protect the actual card number.
+
+---
+
+## Key Takeaways (The Security Challenge)
+* **Security is Not Static:** There is no single tool that you can just install and forget; cybersecurity is a continuous, evolving discipline.
+* **Holistic Approach:** It requires mapping data, identities, and assets to cross-reference vulnerabilities with a combined strategy of policies, processes, and technologies.
+* **The Big Challenge:** A security program must constantly balance robust protection with **usability** (ensuring operations and business are not disrupted) while working within tight budget and resource limitations.
+
+---
 *Educational purpose only. Tracking my learning journey through Cisco Networking Academy.*
